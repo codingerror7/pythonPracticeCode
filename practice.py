@@ -373,3 +373,206 @@
 #     print("The value of GBP to INR is:",val*gbp)
 # elif curr == australianDollar:
 #     print("The value of australianDollar to INR is:",val*australianDollar)
+
+
+#print "Hello" infintely:
+#while True:
+#print("Hello")
+
+
+
+# while Loop
+# i = 1             '''Initialisation'''
+# while i<=10:      '''Termination'''
+#     print("Hellojii")
+#     i = i+1       '''Updation'''
+
+
+
+# fn = ["Sujal","saraswat","raj",90,98,87,76]
+# i = 10
+# while i<=50:    '''The process of running a loop is known as iteration'''
+#     print(fn)
+#     i = i+1
+
+
+
+# name = input()
+# i = 1                            
+# while i <= 10:
+#     print("My name is",name)
+#     i = i+1  or   i += 1
+
+
+
+# i = 1
+# print("The numbers from 1 to 100 are:")
+# while i <= 100:
+#     print(i)
+#     i+=1
+
+
+
+# arr = [1,4,9,16,25,36,49,64,81,100]
+# i = 0
+# while i<= 9:
+#     print(arr[i])
+#     i = i+1
+
+
+
+# i = 100
+# while i>=1:
+#     print(i)
+#     i=i-1
+
+
+
+#To print table of a integer:
+# i = 1;
+# while i<=10:
+#     print(4*i)
+#     i=i+1
+
+
+
+
+# print("Please enter your desired number:")
+# user = int(input())
+# i = 1
+# print("The table of your desired number",user,"is:")
+# while i<=10:
+#     print(user*i)
+#     i=i+1
+
+
+
+# fruits = ["mango","apple","grapes","banana","watermelon","cherry","Strawberry"]
+# i = 0
+# while i<=6:
+#     print(fruits[i])
+#     i=i+1
+
+
+
+# arr = [0,1,2,3,4,5,6,7,8,9]
+# i=0
+# while i<=len(arr):
+#     print(arr[i])
+#     i=i+1
+
+
+
+# arr = [1,23,34,45,56,67,78,89,90,988,76,45]
+# print("Enter your desired number:")
+# x = int(input())
+# i = 0
+# while i<len(arr):
+#     if (arr[i]==x):
+#         print("X found on index",i)
+#     i = i+1
+
+
+
+#for loop:
+# fruits = ["apple","banana","strwaberry","Lichi","mango","papaya","Melon","Cherry"]
+# for val in fruits:
+#     print(val)
+
+
+# num = [1,2,3,4,5,6,7,8]
+# for val in num:
+#     print(val)
+
+
+
+# mail = "saraswatsujal@gmail.com"
+# for val in mail:
+#     print(val)
+
+
+
+# to print a table of value input by the user:
+# num = (1,2,3,4,5,6,7,8,9,10)
+# el = int(input())
+# for val in num:
+#     print(el*val)
+
+
+
+'''OOPS IN PYTHON:'''
+
+'''Attributes store information about the class or object, like a person's name, age, or a company's name.'''
+
+'''ek class ke andar k andar k attribute ko bolte h class attribute and agar kisi object k andar attribute banate h to use bolte h object attribute'''
+
+# class Student:
+#     name="sujal"
+#     rollNo=1202
+# s1 = Student()
+# print(s1.rollNo)
+# print(s1.name)
+
+
+
+# class employee:
+#     name="sujal"
+#     name1="rohit"
+#     name2="Virat"
+#     name3="shami"
+# em1 = employee()
+# print(em1.name)
+# print(em1.name1)
+# print(em1.name2)
+# print(em1.name3)
+
+
+
+# class car:
+#     color = "Red"
+#     model = "ferrari b68"
+#     Number = "MP04BE8274"
+#     Place = "Bhopal"
+#     ownerName = "sujal saraswat"
+# car1 = car()
+# print("This is car1:")
+# print(car1.ownerName)
+# car2 = car()
+# print("this is car 2")
+# print(car2.color)
+# print(car2.Number)
+# car3 = car()
+# print("This is car 3:")
+# print(car3.model)
+# print(car3.Place)
+
+
+# class marks:
+#     p = 90
+#     c = 98
+#     m = 85
+# student = marks()
+# print(student.p,student.c,student.m)
+
+
+
+# class marks:
+#     s1 = 98
+#     s2 = 90
+#     s3 = 97
+#     s4 = 89
+#     s5 = 84
+#     s6 = 79
+#     s7 = 77
+#     s8 = 91
+
+# student1 = marks()
+# print("Kuldeep got",student1.s1,"percent")
+# print("Suraj got",student1.s2,"percent")
+# print("Golu got",student1.s3,"percent")
+# print("Sujal got",student1.s4,"percent")
+# print("Rohit got",student1.s5,"percent")
+# print("Akash got",student1.s6,"percent")
+# print("Akku got",student1.s7,"percent")
+# print("Mahi got",student1.s8,"percent")
+
